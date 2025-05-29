@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>最終課題</title>
+    <!-- web font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="CSS/style_kadai5.css">
     <link rel="stylesheet" href="CSS/style_kadai6.css">
 </head>
 <body>
@@ -190,7 +192,6 @@
                 <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>10:00～</span></div>
                 <div class="speaker_icon">
                     <div class="speaker_photo"><img src="./img/DJ社長.png" alt=""></div>
-                    <div class="speaker_name">DJ社長</div>
                 </div>
                 <div class="spkeak_title">
                     <p>今、SNSを始めるなら</p>
@@ -200,122 +201,175 @@
                 <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>11:00～</span></div>
                 <div class="speaker_icon">
                     <div class="speaker_photo"><img src="./img/田淵慎太郎.png" alt=""></div>
-                    <div class="speaker_name">田端信太郎</div>
                 </div>
                 <div class="spkeak_title">
                     <p>会社員で出世する人と独立して成功する人の適正について</p>
                 </div>
             </div>
-            <div class="speaker_card">
+            <div class="speaker_card transparent active">
                 <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>11:40～</span></div>
                 <div class="speaker_icon">
                     <div class="speaker_photo"><img src="./img/宋.png" alt=""></div>
-                    <div class="speaker_name">宋世羅</div>
                 </div>
                 <div class="spkeak_title">
                     <p>営業出身のフリーランスの生存戦略</p>
                 </div>
             </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>12:20～</span></div>
-                <div class="speaker_icon">
-                    <div class="speaker_photo"><img src="./img/hayashi.png" alt=""></div>
-                    <div class="speaker_name">林尚弘</div>
-                </div>
-                <div class="spkeak_title">
-                    <p>無数のフリーランスに発注してわかった優秀な人の特徴</p>
-                </div>
-            </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>13:00～</span></div>
-                <div class="speaker_icon">
-                    <div class="speaker_photo"><img src="./img/kinoshita.png" alt=""></div>
-                    <div class="speaker_name">木下勝寿</div>
-                </div>
-                <div class="spkeak_title">
-                    <p >現役上場企業社長が語る最新WEBマーケティング論</p>
-                </div>
-            </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>13:40～</span></div>
-                <div class="speaker_icon">
-                    <div class="speaker_photo"><img src="./img/kabumoto.png" alt=""></div>
-                    <div class="speaker_name">株本祐己</div>
-                </div>
-                <div class="spkeak_title">
-                    <p>月収300万円までのロードマップ</p>
-                </div>
-            </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>14:20～</span></div>
-                <div class="speaker_icons">
-                    <div class="speaker_photos_3">
-                        <div class="speaker_photo"><img src="./img/yamamoto.png" alt=""></div>
-                        <div class="speaker_photo"><img src="./img/sako.png" alt=""></div>
-                        <div class="speaker_photo"><img src="./img/aoi.png" alt=""></div>
+            
+            <button class="readmore">Read more</button>
+            <div class="hide_speaker">
+            
+            
+                <div class="speaker_card">  
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>12:20～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photo"><img src="./img/hayashi.png" alt=""></div>
                     </div>
-                    <div class="speaker_names_3">
-                        <p class="speaker_names3_yamamoto">やまもと<br>りゅうけん</p> × 迫祐樹 × 青笹寛史
+                    <div class="spkeak_title">
+                        <p>無数のフリーランスに発注してわかった優秀な人の特徴</p>
                     </div>
                 </div>
-                <div class="spkeak_title">
-                    <p class="spkeak_title_p_3">SNSを伸ばした先に見える世界</p>
-                </div>
-            </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>15:00～</span></div>
-                <div class="speaker_icon">
-                    <div class="speaker_photo"><img src="./img/inoue.png" alt=""></div>
-                    <div class="speaker_name">井上貴裕</div>
-                </div>
-                <div class="spkeak_title">
-                    <p>元サイバーエージェント局長による広告業界の未来予想図</p>
-                </div>
-            </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>15:40～</span></div>
-                <div class="speaker_icons">
-                    <div class="speaker_photos_2">
-                        <div class="speaker_photo"><img src="./img/seisei.png" alt=""></div>
-                        <div class="speaker_photo"><img src="./img/aiguchi.png" alt=""></div>
+                <div class="speaker_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>13:00～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photo"><img src="./img/kinoshita.png" alt=""></div>
                     </div>
-                    <div class="speaker_names_2">板橋晟星 × 藍口康希</div>
-                </div>
-                <div class="spkeak_title">
-                    <p class="spkeak_title_p_2">エンジニアとして独立し、年収3000万円を超える方法</p>
-                </div>
-            </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>16:20～</span></div>
-                <div class="speaker_icon">
-                    <div class="speaker_photo"><img src="./img/iwai.png" alt=""></div>
-                    <div class="speaker_name">岩井良明</div>
-                </div>
-                <div class="spkeak_title">
-                    <p>累計300人以上、起業家を見て感じた成功法則</p>
-                </div>
-            </div>
-            <div class="speaker_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>17:00～</span></div>
-                <div class="speaker_icon">
-                    <div class="speaker_photo"><img src="./img/shimabukuro.png" alt=""></div>
-                    <div class="speaker_name">島袋直樹</div>
-                </div>
-                <div class="spkeak_title">
-                    <p>フリーランスにおすすめのM＆Aトレンドを紹介</p>
-                </div>
-            </div>
-            <div class="MC_card">
-                <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>　MC　</span></div>
-                <div class="speaker_icons">
-                    <div class="MC_photos_2">
-                        <div class="speaker_photo"><img src="./img/uemoto.png" alt=""></div>
-                        <div class="speaker_photo"><img src="./img/kaneto.png" alt=""></div>
+                    <div class="spkeak_title">
+                        <p >現役上場企業社長が語る最新WEBマーケティング論</p>
                     </div>
-                    <div class="MC_names_2">植本涼太郎 × 兼頭竜矢</div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>13:40～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photo"><img src="./img/kabumoto.png" alt=""></div>
+                    </div>
+                    <div class="spkeak_title">
+                        <p>月収300万円までのロードマップ</p>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>14:20～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photos_3"><img src="./img/yamamoto_sako_aoi.png" alt=""></div>
+                    </div>
+                    <div class="spkeak_title">
+                        <p class="spkeak_title_p_3">SNSを伸ばした先に見える世界</p>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>15:00～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photo"><img src="./img/inoue.png" alt=""></div>
+                    </div>
+                    <div class="spkeak_title">
+                        <p >元サイバーエージェント局長による広告業界の未来予想図</p>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>15:40～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photos_2"><img src="./img/seisei_aiguchi.png" alt=""></div>
+                    </div>
+                    <div class="spkeak_title">
+                        <p class="spkeak_title_p_2">エンジニアとして独立し、年収3000万円を超える方法</p>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>16:20～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photo"><img src="./img/iwai.png" alt=""></div>
+                    </div>
+                    <div class="spkeak_title">
+                        <p>累計300人以上、起業家を見て感じた成功法則</p>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>17:00～</span></div>
+                    <div class="speaker_icon">
+                        <div class="speaker_photo"><img src="./img/shimabukuro.png" alt=""></div>
+                    </div>
+                    <div class="spkeak_title">
+                        <p>フリーランスにおすすめのM＆Aトレンドを紹介</p>
+                    </div>
+                </div>
+                <div class="MC_card">
+                    <div class="speaker_time_ribon"><img src="./img/Vector 18.svg" alt=""><span>　MC　</span></div>
+                    <div class="MC_icons">
+                        <div class="MC_photos_2"><img src="./img/kane.png" alt=""></div>
+                    </div>
+                </div>
+            
+                
+            </div>
+        <button class="readless open">△</button>
+        </div>
+    </div>
+    <div class="FAQ">
+        <h1>FAQ</h1>
+        <div class="bullet_point">
+            <p>よくある質問</p>
+        </div>
+        <div class="OAS_blocks">
+            <div class="QA_blocks">
+                <div class="qa_block">
+                    <div class="question">Q</div>
+                    <div class="QA_text">再入場はできますか？</div>
+                </div>
+                <div class="qa_block">
+                    <div class="answer">A</div>
+                    <div class="QA_text">できます。</div>
+                </div>
+            </div>
+            <div class="QA_blocks">
+                <div class="qa_block">
+                    <div class="question">Q</div>
+                    <div class="QA_text">入場にお金はかかりますか？</div>
+                </div>
+                <div class="qa_block">
+                    <div class="answer">A</div>
+                    <div class="QA_text">一切かかりません。</div>
+                </div>
+            </div>
+            <div class="QA_blocks">
+                <div class="qa_block">
+                    <div class="question">Q</div>
+                    <div class="QA_text">出展を希望する企業はどこから問い合わせればいいですか？</div>
+                </div>
+                <div class="qa_block">
+                    <div class="answer">A</div>
+                    <div class="QA_text"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちら</a>からお願いします。</div>
                 </div>
             </div>
         </div>
     </div>
+
+    <aside>
+        <div class="side_item">
+            <a href=""><img src="./img/side_button.svg" alt=""></a>
+        </div>
+    </aside>
+    <div class="footer_item">
+        <a href=""><img src="./img/iphone/button.png" alt=""></a>
+    </div>
+
+    <footer>
+        <div class="companyRequest_link">
+           <a href="">出展希望企業はこちら</a>
+        </div>
+        <hr class="footer_hr">
+        <div class="footer_info">
+            <p>運営会社</p>
+            <div class="footer_logo">
+                <img src="./img/stocksun_logo.png" alt="">
+            </div>
+            <p>個人情報保護方針</p>
+        </div>
+    </footer>
+
+    
+    <div class="blank_space"></div>
+        
 </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./JS/script_kadai6.js"></script>
 </html>
