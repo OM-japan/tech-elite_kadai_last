@@ -48,6 +48,7 @@ body{
     width: 100%;
     text-align: center;
     margin: 4px 0;
+    font-weight: bold;
 }
 @media screen and (max-width: 800px) {
   .catch_word p {
