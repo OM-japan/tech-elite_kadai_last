@@ -351,6 +351,7 @@ body{
 }
 .access_detail li{
   padding-left: 14px;
+  font-weight: 400;
 }
 @media screen and (max-width:800px){
   .access_detail{
