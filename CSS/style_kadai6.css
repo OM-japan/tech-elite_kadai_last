@@ -895,7 +895,7 @@ body{
     text-align: left;
     padding: 0px 20px;
     padding-top: 12px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 @media screen and (max-width:800px){
   .spkeak_title p {
