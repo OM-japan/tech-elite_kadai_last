@@ -545,6 +545,7 @@ body{
     padding-top: 37px;
     margin-bottom: 9px;
     font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
 @media screen and (max-width:800px){
   .pickup h1{
