@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>最終課題</title>
     <!-- web font -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="CSS/style_kadai5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="CSS/style_kadai6.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="CSS/style_kadai6.css">
     <link rel="stylesheet" href="CSS/style_kadai6.css">
 </head>
 <body>
@@ -71,12 +72,12 @@
                 <h2>アクセス</h2>
                 <div class="summary_graph_txtbox">
                     <p class="summary_graph_txtbox_p">【最寄駅】</p>
-                    <h3 class="access_detail">● JR</h3>
+                    <h3 class="access_detail"><span>●</span> JR</h3>
                     <ul class="access_detail">
                         <li>有楽町駅より徒歩1分</li>
                         <li>東京駅より徒歩5分</li>
                     </ul>
-                    <h3 class="access_detail">● 地下鉄</h3>
+                    <h3 class="access_detail"><span>●</span> 地下鉄</h3>
                     <ul class="access_detail">
                         <li>有楽町線 ： 有楽町駅(B1F地下コンコースにて連絡)</li>
                         <li>千代田線 ： 二重橋前駅より徒歩5分/日比谷駅より徒歩7分</li>
@@ -104,7 +105,7 @@
                 <img class="contents_box_picture" src="./img/AdobeStock_239185211 1.png" alt="">
             </div>
             <div class="contents_box">
-                <p class="contents_box_header">各業界の著名人が登場</p>
+                <p class="contents_box_header">各業界の著名人が登壇</p>
                 <p class="contents_box_description1">ここでしか聞けない話が聞ける</p>
                 <img class="ribon" src="./img/Vector 15.svg" alt="">
                 <p class="contents_box_description2">豪華セミナーを開催</p>
@@ -333,7 +334,7 @@
             <div class="QA_blocks">
                 <div class="qa_block">
                     <div class="question">Q</div>
-                    <div class="QA_text">出展を希望する企業はどこから問い合わせればいいですか？</div>
+                    <div class="QA_text">出展を希望する企業はどこから問い合わせれば良いですか？</div>
                 </div>
                 <div class="qa_block">
                     <div class="answer">A</div>

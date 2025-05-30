@@ -1,6 +1,7 @@
 body{
     margin: 0 0;
     font-family: 'Noto Sans JP', sans-serif;
+    color: #444545;
 }
 
 .cover_background{
@@ -8,7 +9,6 @@ body{
     width: 100%;
     aspect-ratio: 16 / 10;
     margin: 0;
-    margin-bottom: -20px;
     position: relative;
     background-image: url("../img/coverbackground.png");
     background-size: cover;
@@ -80,7 +80,7 @@ body{
     display: inline-block;
     color: white;
     text-align: center;
-    transform: skewX(-10deg);
+    /* transform: skewX(-10deg); */
     font-size: 18px;
     margin: 0;
     margin-bottom: 11px;
@@ -101,8 +101,9 @@ body{
     width: 100%;
     color: white;
     font-size: clamp(23px, 3vw, 42px);
-    transform: skewX(-8deg);
+    /* transform: skewX(-8deg); */
     font-weight: 450;
+    font-style: italic;
     margin: 0;
     margin-bottom: 6px;
 }
@@ -115,7 +116,7 @@ body{
     width: 100%;
     color: white;
     font-size: clamp(14px, 2.5vw, 28px);
-    font-weight: 450;
+    font-weight: 700;
     letter-spacing: 2px;
     margin: 0;
     margin-bottom: 3%;
@@ -145,7 +146,7 @@ body{
     background-position: center ;
     background-size: cover;
     text-align: center;
-    padding-top: 43px;
+    padding-top: 24px;
     height: auto;
     padding-bottom: 45px;
 }
@@ -153,15 +154,19 @@ body{
   .section2_background{
     background-repeat: no-repeat;
     background-image: url("../img/iphone/background_section2.svg");
+    padding-top: 47px;
+    padding-bottom: 35px;
   }
 }
 
 .section2_background h1{
-    color: #7DD6FC;
-    transform: skewX(-10deg);
+    color:  #81D7FC;
     font-size: clamp(23px, 4vw, 54px);
     margin: 0;
     margin-bottom: 9px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
 }
 
 .bullet_point{
@@ -212,6 +217,7 @@ body{
 @media screen and (max-width:800px){
   .section2_description{
     margin: 27px 0;
+    margin-top: -7px;
     width: 70%;
     min-width: 296px;
   }
@@ -240,9 +246,9 @@ body{
     width: 20%;
     margin:29px 2px;
     line-height: clamp(22px, 5vw, 50px);
-    border: 1px solid #FFD54F;
+    border: 1px solid #FDD35C;
     border-radius: 53px;
-    color: #FFD54F;
+    color: #FDD35C;
     font-size: clamp(15px, 2vw, 22px);
     font-weight: 500;
     align-self: flex-start;
@@ -257,7 +263,7 @@ body{
     margin: 4px 0px;
     margin-top: 37px;
     margin-left: 19px;
-    font-size: clamp(13px, 2.2vw, 22px);
+    font-size: clamp(14px, 2.2vw, 22px);
     font-weight: 500;
     text-align: left;
     align-self: flex-start;
@@ -267,6 +273,7 @@ body{
     margin: 8px 11px;
     margin-top: 0px;
     line-height: 24px;
+    font-weight: bold;
   }
 }
 
@@ -350,6 +357,10 @@ body{
   }
 }
 
+.access_detail span{
+  color: #FDD35C;
+}
+
 .contents{
   background-color: #FFF6DC;
   width: 100%;
@@ -358,17 +369,20 @@ body{
 }
 @media screen and (max-width:800px){
   .contents{
-  padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 13px;
   }
 }
 
 .contents h1{
-    color: #FFD54F;
-    transform: skewX(-10deg);
+    color: #FDD35C;
+    /* transform: skewX(-10deg); */
     font-size: 54px;
+    font-style: italic;
     margin: auto;
     padding-top: 67px;
     margin-bottom: 9px;
+    font-family: "Roboto", sans-serif;
 }
 @media screen and (max-width:800px){
   .contents h1{
@@ -391,7 +405,7 @@ body{
 .contents_box{
     width: 432px;
     height: auto;
-    border: solid 3px #FFD54F;
+    border: solid 3px #FDD35C;
     border-radius: 8px;
     margin: 26px 44px;
     overflow: hidden;
@@ -407,11 +421,12 @@ body{
 
 
 .contents_box_header{
-    background-color: #FFD54F;
+    background-color: #FDD35C;
     color: white;
     margin: 0;
     padding: 10px 0;
-    font-size:clamp(19px, 2vw, 24px);
+    font-size:clamp(18px, 2vw, 24px);
+    font-weight: bold;
 }
 @media screen and (max-width:800px){
   .contents_box_header{
@@ -441,7 +456,7 @@ body{
     margin-top: -19px;
     margin-bottom: 3px;
     font-size:clamp(21px, 2.3vw, 29px);
-    color: #FFD54F;
+    color: #FDD35C;
     font-weight: bold;
     height: 64px;
     line-height: 64px;
@@ -502,25 +517,27 @@ body{
   width: 100%;
   height: auto;
   text-align: center;
-  border-left: 49px solid #FFD54F;
-  border-right: 49px solid #FFD54F;
+  border-left: 49px solid #FDD35C;
+  border-right: 49px solid #FDD35C;
   box-sizing: border-box;
   padding-bottom: 43px;
 }
 @media screen and (max-width:800px){
   .pickup{
-  border-left: 10px solid #FFD54F;
-  border-right: 10px solid #FFD54F;
+  border-left: 10px solid #FDD35C;
+  border-right: 10px solid #FDD35C;
   }
 }
 
 .pickup h1{
-    color: #FFD54F;
-    transform: skewX(-10deg);
+    color: #FDD35C;
+    /* transform: skewX(-10deg); */
+    font-style: italic;
     font-size: 54px;
     margin: auto;
     padding-top: 37px;
     margin-bottom: 9px;
+    font-family: "Roboto", sans-serif;
 }
 @media screen and (max-width:800px){
   .pickup h1{
@@ -575,6 +592,8 @@ body{
     height: auto;
     margin: 10px 0;
     text-align: left;
+    font-weight: 500;
+    color: #000000;
 }
 @media screen and (max-width:800px){
   .company_list p{
@@ -614,13 +633,15 @@ body{
 
 }
 .about_exhibitors h1 {
-    color: #7DD6FC;
-    transform: skewX(-10deg);
+    color: #81D7fc;
+    /* transform: skewX(-10deg); */
+    font-style: italic;
     font-size: clamp(23px, 4vw, 54px);
     margin: 0;
     margin-bottom: 9px;
     text-align: center;
     padding-top: 12px;
+    font-family: "Roboto", sans-serif;
 }
 
 .exhibit_companies {
@@ -660,6 +681,7 @@ body{
     box-sizing: border-box;
     margin: 5.5px 0;
     padding-left: 23px;
+    font-weight: 500;
 }
 @media screen and (max-width:800px){
   .exhibit_companies li{
@@ -698,12 +720,14 @@ body{
 }
 
 .time_schedule h1{
-    color: #00BFFF;
-    transform: skewX(-10deg);
+    color: #00A8F0;
+    /* transform: skewX(-10deg); */
+    font-style: italic;
     font-size: clamp(23px, 4vw, 54px);
     margin: 0;
     margin-bottom: 9px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .time_schedule .bullet_point{
@@ -735,10 +759,12 @@ body{
     width: 100%;
     max-width: 300px;
     aspect-ratio: 1 / 0.83;
-    background-color: #AAB5C1;
+    background-color: #C1C7C9 ;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     padding-top: 7px;
+    background-color: #F1FBFF99;
+    
 }
 @media screen and (max-width:800px){
   .speaker_card{
@@ -746,12 +772,14 @@ body{
     flex-direction: row-reverse;
     max-width: 700px;
     aspect-ratio: 1 / 0.275;
+    background-color: #F1FBFF99;
   }
 }
 
 .speaker_time_ribon{
     margin-right: auto;
     position: relative;
+    right: 4px;
 }
 @media screen and (max-width:800px){
   .speaker_time_ribon{
@@ -763,9 +791,10 @@ body{
 .speaker_time_ribon span{
     position: absolute;
     top: 0%;
-    left: 1%;
+    left: 3%;
     font-size: 17px;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 @media screen and (max-width:800px){
   .speaker_time_ribon span{
@@ -773,7 +802,7 @@ body{
     font-weight: bold;
     position: absolute;
     top: 7%;
-    left: 9%;
+    left: 1%;
   }
   .speaker_time_ribon img{
     width: clamp(76px, 20vw, 150px)
@@ -842,7 +871,7 @@ body{
 }
 
 .spkeak_title {
-    font-size: 19px;
+    font-size: 20px;
     letter-spacing: 2px;
     text-align: left;
     width: 100%;
@@ -866,12 +895,12 @@ body{
     text-align: left;
     padding: 0px 20px;
     padding-top: 12px;
+    font-weight: bolder;
 }
 @media screen and (max-width:800px){
   .spkeak_title p {
     padding-top: 25px;
     font-size: clamp(15px, 3.5vw, 33px);
-    font-weight: bolder;
   }
 }
 
@@ -908,7 +937,7 @@ body{
     width: 100%;
     max-width: 300px;
     max-height: 190px;
-    background-color: #AAB5C1;
+    background-color: #F1FBFF99;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     padding-top: 7px;
@@ -917,6 +946,7 @@ body{
   .MC_card {
     max-width: 700px;
     aspect-ratio: 1 / 0.275;
+    background-color: #F1FBFF99;
   }
 }
 
@@ -977,8 +1007,7 @@ body{
   }
 
   .transparent.active{
-    background: linear-gradient(#AAB5C1FF 80%, #AAB5C180 90%, #AAB5C100 100%);
-  }
+    background: linear-gradient(#F1FBFF99 80%,#F1FBFF60 90%, #F1FBFF00 100% )}
   
   .readmore.open, .readless.open{
     display: none;
@@ -998,8 +1027,9 @@ body{
 }
 
 .FAQ h1{
-    color: #FFD54F;
-    transform: skewX(-10deg);
+    color: #FDD35C;
+    /* transform: skewX(-10deg); */
+    font-style: italic;
     font-size: 54px;
     margin: auto;
     padding-top: 86px;
@@ -1032,7 +1062,7 @@ body{
     margin-bottom: 16px;
 }
 .question {
-    background: #00AEEF;
+    background: #00A8F0;
     border-radius: 50%;
     width: clamp(24px, 6vw, 32px);
     height: clamp(24px, 6vw, 32px);
@@ -1045,9 +1075,16 @@ body{
 .QA_text{
     padding-left: 14px;
     font-size: clamp(16px, 2vw, 18px);
+    color: #000000;
+    font-weight: bold;
+}
+
+.QA_text a{
+  text-decoration: none; 
+  color: inherit; 
 }
 .answer {
-    background: #F2C94C;
+    background: #FDD35C;
     border-radius: 50%;
     width: clamp(24px, 6vw, 32px);
     height: clamp(24px, 6vw, 32px);
