@@ -704,6 +704,7 @@ body{
     font-size: 21px;
     margin: auto;
     margin-top: 23px;
+    font-weight: 500;
 }
 @media screen and (max-width:800px){
   .about_exhibitors_p{
