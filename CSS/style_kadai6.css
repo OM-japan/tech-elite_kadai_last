@@ -347,7 +347,7 @@ body{
   margin: 0;
   margin-bottom: 3px;
   padding: 0 19px;
-  font-weight: unset;
+  font-weight: 500;
 }
 .access_detail li{
   padding-left: 14px;
