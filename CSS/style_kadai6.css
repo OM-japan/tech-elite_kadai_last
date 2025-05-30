@@ -102,10 +102,11 @@ body{
     color: white;
     font-size: clamp(23px, 3vw, 42px);
     /* transform: skewX(-8deg); */
-    font-weight: 450;
+    font-weight: bold;
     font-style: italic;
     margin: 0;
     margin-bottom: 6px;
+    font-family: "Roboto", sans-serif;
 }
 .date span{
     font-size: clamp(16px, 2vw, 29px);
