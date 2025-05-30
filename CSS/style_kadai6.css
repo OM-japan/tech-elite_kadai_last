@@ -80,10 +80,11 @@ body{
     display: inline-block;
     color: white;
     text-align: center;
-    /* transform: skewX(-10deg); */
+    font-style: italic;
     font-size: 18px;
     margin: 0;
     margin-bottom: 11px;
+    font-family: "Roboto", sans-serif;
   }
   .sponsore span:nth-child(1){
     font-style: normal;
