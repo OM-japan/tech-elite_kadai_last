@@ -999,8 +999,8 @@ body{
     border: white solid 1px;
     font-size: clamp(15px, 4.3vw, 40px);
     font-style: italic;
-    font-family: "Noto Sans JP", sans-serif;
-    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
   }
   .readless{
     font-style: normal;
