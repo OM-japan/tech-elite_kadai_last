@@ -255,7 +255,7 @@ body{
     border-radius: 53px;
     color: #FDD35C;
     font-size: clamp(15px, 2vw, 22px);
-    font-weight: 500;
+    font-weight: bold;
     align-self: flex-start;
 }
 @media screen and (max-width:800px){
