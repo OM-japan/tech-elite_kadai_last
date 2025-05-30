@@ -643,7 +643,6 @@ body{
 }
 .about_exhibitors h1 {
     color: #81D7fc;
-    /* transform: skewX(-10deg); */
     font-style: italic;
     font-size: clamp(23px, 4vw, 54px);
     margin: 0;
@@ -651,6 +650,7 @@ body{
     text-align: center;
     padding-top: 12px;
     font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
 
 .exhibit_companies {
@@ -1134,7 +1134,7 @@ footer{
     text-decoration: none;
     font-size: clamp(15px, 3.8vw, 21px);
     letter-spacing: 1px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .footer_hr{
@@ -1166,6 +1166,7 @@ footer{
   color: white;
   font-size: clamp(8px, 2vw, 13px);
   letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .side_item {
