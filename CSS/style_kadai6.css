@@ -269,7 +269,7 @@ body{
     margin-top: 37px;
     margin-left: 19px;
     font-size: clamp(14px, 2.2vw, 22px);
-    font-weight: 500;
+    font-weight: bold;
     text-align: left;
     align-self: flex-start;
 }
@@ -278,7 +278,6 @@ body{
     margin: 8px 11px;
     margin-top: 0px;
     line-height: 24px;
-    font-weight: bold;
   }
 }
 
