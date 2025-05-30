@@ -477,6 +477,7 @@ body{
     transform: skewX(-11deg) scaleX(0.9);
     font-weight: 500; 
     margin-top: -6px;
+    font-family: "Roboto", sans-serif;
 }
 @media screen and (max-width:800px){
   .contents_box_description2 span{
