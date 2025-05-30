@@ -1124,6 +1124,7 @@ footer{
     text-decoration: none;
     font-size: clamp(15px, 3.8vw, 21px);
     letter-spacing: 1px;
+    font-weight: 500;
 }
 
 .footer_hr{
