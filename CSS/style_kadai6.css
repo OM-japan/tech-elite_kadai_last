@@ -77,12 +77,12 @@ body{
 }
 @media screen and (max-width:800px){
   .sponsore{
-    width: 100%;
+    width: 104%;
     display: inline-block;
     color: white;
     text-align: center;
     font-style: italic;
-    font-size: 15px;
+    font-size: 17px;
     margin: 0;
     margin-bottom: 11px;
     font-family: "Roboto", sans-serif;
@@ -281,7 +281,6 @@ body{
   }
 }
 
-
 .event_summary hr{
     border: 0;
     border-bottom: 1px dotted #ccc;
@@ -442,6 +441,12 @@ body{
 
 .ribon{
   margin-bottom: 0px;
+}
+@media screen and (max-width:800px) {
+  .ribon{
+    width: 54%;
+    margin-top: 6px;
+  }
 }
 
 .contents_box_description1{
@@ -903,7 +908,7 @@ body{
 .spkeak_title p {
     margin: auto 0px;
     text-align: left;
-    padding: 0px 20px;
+    padding: 0px 17px;
     padding-top: 12px;
     font-weight: bold;
 }

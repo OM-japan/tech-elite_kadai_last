@@ -50,7 +50,7 @@
             </div>
             <div class="summary_graph">
                 <h2>開催日程</h2>
-                <p>2023年3月4日（土）開場10:00 閉場18:00 （受付開始9:30-）</p>
+                <p>2023年3月4日（土）開場10:00 閉場18:00（受付開始9:30-）</p>
             </div>
             <hr>
             <div class="summary_graph">
@@ -100,7 +100,7 @@
             <div class="contents_box">
                 <p class="contents_box_header">フリーランスに特化した企業エリア</p>
                 <p class="contents_box_description1">出会いたい企業にきっと出会える</p>
-                <img src="./img/Vector 15.svg" alt="">
+                <img class="ribon" src="./img/Vector 15.svg" alt="">
                 <p class="contents_box_description2"><span>60</span>ブースの企業エリア</p>
                 <img class="contents_box_picture" src="./img/AdobeStock_239185211 1.png" alt="">
             </div>
