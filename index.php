@@ -29,7 +29,7 @@
             <img src="./img/button.png" alt="form_button">
         </a>
     </div>
-    <!-- <div class="section2_background">
+    <div class="section2_background">
         <div class="about_summit">
             <h1>Freelance Summit</h1>
             <div class="bullet_point">
@@ -368,7 +368,7 @@
     </footer>
 
     
-    <div class="blank_space"></div> -->
+    <div class="blank_space"></div>
         
 </body>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
