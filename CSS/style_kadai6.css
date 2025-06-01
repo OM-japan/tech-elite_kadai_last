@@ -146,8 +146,7 @@ body{
     position: relative;
     background-image: url("../img/background_section2.svg");
     background-size: 100%;
-    background-position: center ;
-    background-size: cover;
+    background-position: top ;
     text-align: center;
     padding-top: 24px;
     height: auto;
@@ -261,6 +260,12 @@ body{
 @media screen and (max-width:800px){
   .summary_graph h2{
     margin:0px 2px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .event_summary{
+    background-color: white;/*背景画像被りするので、背景色設定*/
   }
 }
 
@@ -1039,6 +1044,11 @@ body{
     background-repeat: no-repeat;
     height: auto;
     padding-bottom: clamp(0px, calc(10.67vw - 41.6px), 112px);
+}
+@media screen and (max-width:800px){
+  .FAQ{
+    background-image: url();
+  }
 }
 
 .FAQ h1{
