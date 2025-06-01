@@ -907,6 +907,8 @@ body{
     width: 100%;
     max-width: 400px;
     height: auto;
+    margin-bottom: 0;
+    margin-top: 7px;
   }
 }
 
@@ -919,7 +921,7 @@ body{
 }
 @media screen and (max-width:800px){
   .spkeak_title p {
-    padding-top: 25px;
+    padding-top: 15px;
     font-size: clamp(15px, 3.5vw, 33px);
   }
 }
