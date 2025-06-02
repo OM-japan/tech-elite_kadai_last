@@ -5,7 +5,7 @@ body{
 }
 
 .cover_background{
-    max-height: 842px;
+    max-height: 846px;
     width: 100%;
     aspect-ratio: 16 / 10;
     margin: 0;
@@ -47,12 +47,12 @@ body{
     font-size: clamp(16px, 2.5vw, 28px);
     width: 100%;
     text-align: center;
-    margin: 4px 0;
+    margin: 8px 0;
     font-weight: bold;
 }
 @media screen and (max-width: 800px) {
   .catch_word p {
-    margin: 20px 0;;
+    margin: 21px 0;;
   }
 }
 
@@ -61,14 +61,14 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 41px;
-    margin-bottom: 8px;
+    margin: 39px;
+    margin-bottom: 15px;
 }
 @media screen and (max-width:800px){
   .title {
     height: 31.7%;
     padding: 2px;
-    margin: 4px;
+    margin: 2px;
   }
 }
 
@@ -84,7 +84,7 @@ body{
     font-style: italic;
     font-size: 17px;
     margin: 0;
-    margin-bottom: 11px;
+    margin-bottom: 16px;
     font-family: "Roboto", sans-serif;
   }
   .sponsore span:nth-child(1){
@@ -102,8 +102,7 @@ body{
     text-align: center;
     width: 100%;
     color: white;
-    font-size: clamp(23px, 3vw, 42px);
-    /* transform: skewX(-8deg); */
+    font-size: clamp(24px, 3.1vw, 44px);
     font-weight: bold;
     font-style: italic;
     margin: 0;
@@ -111,7 +110,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 .date span{
-    font-size: clamp(16px, 2vw, 29px);
+    font-size: clamp(17px, 2.3vw, 32px);
 }
 
 .place{
@@ -132,7 +131,7 @@ body{
     transform: translate(-50%, 0%);
     width: 30%;
     height: 8%;
-    max-width: 432px;
+    max-width: 425px;
 }
 @media screen and (max-width:800px) {
   .Application_form_button{
@@ -148,7 +147,7 @@ body{
     background-size: 100%;
     background-position: top ;
     text-align: center;
-    padding-top: 24px;
+    padding-top: 31px;
     height: auto;
     padding-bottom: 45px;
 }
@@ -156,19 +155,24 @@ body{
   .section2_background{
     background-repeat: no-repeat;
     background-image: url("../img/iphone/background_section2.svg");
-    padding-top: 47px;
+    padding-top: 49px;
     padding-bottom: 35px;
   }
 }
 
 .section2_background h1{
     color:  #81D7FC;
-    font-size: clamp(23px, 4vw, 54px);
+    font-size: clamp(26px, 4.2vw, 60px);
     margin: 0;
     margin-bottom: 9px;
     font-style: italic;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+}
+@media screen and (max-width: 800px) {
+  .section2_background h1{
+    margin-bottom: 4px;
+  }
 }
 
 .bullet_point{
@@ -193,7 +197,7 @@ body{
 }
 
 .about_summit h2{
-    margin: 60px;
+    margin: 57px;
     margin-bottom: 42px;
     font-size: 22px;
     line-height: 43px;
@@ -210,7 +214,7 @@ body{
     max-width: 965px;
     line-height: clamp(37px, 4vw, 45px);
     margin: 0;
-    margin-bottom: min(151px, 11%);
+    margin-bottom: min(160px, 11%);
     font-size: clamp(16px, 2vw, 18px);
     text-align: left;
     position: relative;
@@ -220,8 +224,8 @@ body{
 }
 @media screen and (max-width:800px){
   .section2_description{
-    margin: 27px 0;
-    margin-top: -7px;
+    margin: 31px 0;
+    margin-top: -2px;
     width: 70%;
     min-width: 296px;
   }
@@ -387,17 +391,17 @@ body{
 .contents h1{
     color: #FDD35C;
     /* transform: skewX(-10deg); */
-    font-size: 54px;
+    font-size: 61px;
     font-style: italic;
     margin: auto;
-    padding-top: 67px;
+    padding-top: 75px;
     margin-bottom: 9px;
     font-family: "Roboto", sans-serif;
 }
 @media screen and (max-width:800px){
   .contents h1{
-    font-size: clamp(23px, 4vw, 54px);
-    padding-top: 20px;
+    font-size: clamp(26px, 4vw, 54px);
+    padding-top: 24px;
   }
 }
 
@@ -435,7 +439,7 @@ body{
     color: white;
     margin: 0;
     padding: 10px 0;
-    font-size:clamp(18px, 2vw, 24px);
+    font-size:clamp(19px, 2vw, 24px);
     font-weight: bold;
 }
 @media screen and (max-width:800px){
@@ -489,7 +493,7 @@ body{
 .contents_box_description2 span{
     font-size: clamp(34px, 4vw, 44px);
     display: inline-block;
-    transform: skewX(-11deg) scaleX(0.9);
+    font-style: italic;
     font-weight: 600; 
     margin-top: -6px;
     font-family: "Roboto", sans-serif;
@@ -549,11 +553,10 @@ body{
 
 .pickup h1{
     color: #FDD35C;
-    /* transform: skewX(-10deg); */
     font-style: italic;
-    font-size: 54px;
+    font-size: 60px;
     margin: auto;
-    padding-top: 37px;
+    padding-top: 44px;
     margin-bottom: 9px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -573,7 +576,7 @@ body{
 .company_list li {
     display: flex;
     align-items: center;
-    margin-bottom: 4px;
+    margin-bottom: 11px;
     justify-content: center;
 }
 @media screen and (max-width:800px){
@@ -606,10 +609,10 @@ body{
 }
 
 .company_list p {
-    width: 52%;
+        width: 52%;
     max-width: 677px;
     height: auto;
-    margin: 10px 0;
+    margin: 7px 0;
     text-align: left;
     font-weight: 500;
     color: #000000;
@@ -636,8 +639,8 @@ body{
 }
 
 .company_list_imgsacsak{
-    height: 19px;
-    margin-top: 8px;
+    height: 20px;
+    margin-top: 4px;
 }
 
 .company_list_QUARET{
@@ -654,11 +657,11 @@ body{
 .about_exhibitors h1 {
     color: #81D7fc;
     font-style: italic;
-    font-size: clamp(23px, 4vw, 54px);
+    font-size: clamp(23px, 4.3vw, 61px);
     margin: 0;
     margin-bottom: 9px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 22px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
@@ -666,7 +669,7 @@ body{
 .exhibit_companies {
     width: 100%;
     margin: 80px 0px;
-    margin-bottom: 75px;
+    margin-bottom: 72px;
 }
 @media screen and (max-width:800px){
   .exhibit_companies{
@@ -729,23 +732,22 @@ body{
     background-image: url("../img/background_4.png");
     background-size: cover;
     background-position: center;
-    padding-top:  77px;
+    padding-top:  82px;
     padding-bottom:  186px;
 }
 @media screen and (max-width:800px){
   .time_schedule{
     padding-top: clamp(36px, 9vw, 77px);
-    padding-bottom: clamp(54px, 11vw, 186px);
+    padding-bottom: clamp(55px, 11vw, 186px);
   }
 }
 
 .time_schedule h1{
     color: #00A8F0;
-    /* transform: skewX(-10deg); */
     font-style: italic;
-    font-size: clamp(23px, 4vw, 54px);
+    font-size: clamp(26px, 4.3vw, 61px);
     margin: 0;
-    margin-bottom: 9px;
+    margin-bottom: 7px;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
@@ -761,7 +763,7 @@ body{
 .speakers_grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px 32px;
+    gap: 23px 32px;
     margin: auto;
     margin-top: clamp(28px, 7vw, 53px);
     justify-content: center;
@@ -1015,7 +1017,7 @@ body{
     aspect-ratio: 1 / 0.2;
     width: 34%;
     margin: auto;
-    margin-top: 6px;
+    margin-top: 11px;
     display: block;
     background-color: transparent;
     color: white;
@@ -1056,9 +1058,8 @@ body{
 
 .FAQ h1{
     color: #FDD35C;
-    /* transform: skewX(-10deg); */
     font-style: italic;
-    font-size: 54px;
+    font-size: clamp(23px, 4.3vw, 61px);
     margin: auto;
     padding-top: 86px;
     margin-bottom: 9px;
@@ -1066,8 +1067,8 @@ body{
 }
 @media screen and (max-width:800px){
   .FAQ h1{
-    font-size: clamp(23px, 4vw, 54px);
-    padding-top: 20px;
+    font-size: clamp(25px, 4vw, 54px);
+    padding-top: 25px;
   }
 }
 
@@ -1076,10 +1077,10 @@ body{
 }
 
 .QA_blocks{
-    margin-bottom: clamp(22px, 5.5vw, 44px);
+    margin-bottom: clamp(21px, 5.0vw, 44px);
 }
 .qa_block {
-    width: clamp(333px, 85vw, 778px);
+    width: clamp(320px, 80vw, 778px);
     max-width: 778px;
     padding-left: 12px;
     display: flex;
@@ -1132,7 +1133,7 @@ footer{
     background-color: #2C2C2C;
     height: auto;
     width: 100%;
-    padding-top: clamp(21px, 5vw, 59px);
+    padding-top: clamp(23px, 6vw, 59px);
     padding-bottom: clamp(17px, 2vw, 31px);
 }
 
