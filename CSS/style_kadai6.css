@@ -82,19 +82,19 @@ body{
     color: white;
     text-align: center;
     font-style: italic;
-    font-size: 17px;
+    font-size: 18.9px;
     margin: 0;
     margin-bottom: 16px;
     font-family: "Roboto", sans-serif;
   }
   .sponsore span:nth-child(1){
     font-style: normal;
-    font-size: 27px;
-    letter-spacing: 8px;
+    font-size: 25px;
+    letter-spacing: 6px;
   }
   .sponsore span:nth-child(2){
     font-style: normal;
-    font-size: 27px;
+    font-size: 25px;
   }
 }
 
