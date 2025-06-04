@@ -51,7 +51,7 @@
             </div>
             <div class="summary_graph">
                 <h2>開催日程</h2>
-                <p>2023年3月4日（土）開場10:00 閉場18:00（受付開始9:30-）</p>
+                <p>2023年3月4日（土）<span class="span_pc">開場10:00 閉場18:00</span><span class="span_phone">10:00～18:00</span>（受付開始9:30-）</p>
             </div>
             <hr>
             <div class="summary_graph">

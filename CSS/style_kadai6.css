@@ -267,6 +267,23 @@ body{
   }
 }
 
+.span_pc{
+    display: inline;
+}
+.span_phone{
+    display: none;
+}
+@media screen and (max-width:800px){
+  .span_pc{
+    display: none;
+}
+  .span_phone{
+    display: inline;
+}
+}
+
+
+
 @media screen and (max-width:800px){
   .event_summary{
     background-color: white;/*背景画像被りするので、背景色設定*/
@@ -287,6 +304,7 @@ body{
     margin: 8px 11px;
     margin-top: 0px;
     line-height: 24px;
+    margin-right: -3px;
   }
 }
 
